@@ -1,6 +1,6 @@
-package com.monkeybusiness.task.parser.impl;
+package com.monkeybusiness.task.util.parser.impl;
 
-import com.monkeybusiness.task.parser.Parser;
+import com.monkeybusiness.task.util.parser.Parser;
 
 public abstract class AbstractParser implements Parser {
   private Parser nextParser;

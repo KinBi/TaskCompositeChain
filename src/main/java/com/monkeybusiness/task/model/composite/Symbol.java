@@ -1,8 +1,8 @@
-package com.monkeybusiness.task.composite;
+package com.monkeybusiness.task.model.composite;
 
-public class Symbol implements Component{
+public class Symbol implements Component {
   private final char symbol;
-  private final ComponentEnum componentEnum = ComponentEnum.SYMBOL;
+  private final ComponentType componentEnum = ComponentType.SYMBOL;
 
   public Symbol(char symbol) {
     this.symbol = symbol;
@@ -19,8 +19,18 @@ public class Symbol implements Component{
   }
 
   @Override
-  public ComponentEnum getComponentType() {
+  public ComponentType getComponentType() {
     return componentEnum;
+  }
+
+  @Override
+  public Component getChild(int index) {
+    throw new UnsupportedOperationException();
+  }
+
+  @Override
+  public int size() {
+    return 1;
   }
 
   @Override

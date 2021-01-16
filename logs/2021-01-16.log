@@ -1,0 +1,16 @@
+2021-01-16 16:20:23,069 ERROR monkeybusiness.task.util.reader.DataReader [main] java.nio.file.NoSuchFileException: res\text.txt
+2021-01-16 16:20:59,645 ERROR monkeybusiness.task.util.reader.DataReader [main] java.nio.file.NoSuchFileException: \res\text.txt
+2021-01-16 16:22:19,760 ERROR monkeybusiness.task.util.reader.DataReader [main] java.nio.file.NoSuchFileException: res\text.txt
+2021-01-16 16:22:42,478 ERROR monkeybusiness.task.util.reader.DataReader [main] java.nio.file.NoSuchFileException: res\text.txt
+2021-01-16 16:22:49,441 ERROR monkeybusiness.task.util.reader.DataReader [main] java.nio.file.NoSuchFileException: res\text.txt
+2021-01-16 16:23:05,792 ERROR monkeybusiness.task.util.reader.DataReader [main] java.nio.file.NoSuchFileException: res\text.txt
+2021-01-16 16:30:22,368 ERROR monkeybusiness.task.util.reader.DataReader [main] java.nio.file.NoSuchFileException: res\text.txt
+2021-01-16 16:30:38,994 ERROR monkeybusiness.task.util.reader.DataReader [main] java.nio.file.NoSuchFileException: \res\text.txt
+2021-01-16 16:35:26,988 ERROR monkeybusiness.task.util.reader.DataReader [main] java.nio.file.NoSuchFileException: \res\text.txt
+2021-01-16 16:42:43,425 ERROR monkeybusiness.task.util.reader.DataReader [main] java.nio.file.NoSuchFileException: src\main\res\text.txt
+2021-01-16 16:44:19,084 ERROR monkeybusiness.task.util.reader.DataReader [main] java.nio.file.NoSuchFileException: \reseseses\text.txt
+2021-01-16 17:22:55,608 ERROR monkeybusiness.task.util.reader.DataReader [main] java.nio.file.NoSuchFileException: \reseseses\text.txt
+2021-01-16 17:28:45,784 ERROR monkeybusiness.task.util.reader.DataReader [main] java.nio.file.NoSuchFileException: ..\reseseses\text.txt
+2021-01-16 17:29:21,084 ERROR monkeybusiness.task.util.reader.DataReader [main] java.nio.file.NoSuchFileException: ..\reseseses\text.txt
+2021-01-16 17:29:44,379 ERROR monkeybusiness.task.util.reader.DataReader [main] java.nio.file.NoSuchFileException: \resources\reseseses\text.txt
+2021-01-16 19:10:55,913 ERROR monkeybusiness.task.util.reader.DataReader [main] java.nio.file.NoSuchFileException: src\main\res\text.txt
