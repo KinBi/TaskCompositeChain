@@ -9,8 +9,6 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.stream.Collectors;
 
 public class DataReader {
@@ -18,7 +16,6 @@ public class DataReader {
   public static final String DEFAULT_FILEPATH = "res/text.txt";
 
   public String readFromFile(String filepath) throws DataReaderException {
-    List<String> customerList = new ArrayList<>();
     Path path = Paths.get(filepath);
     if (!path.toFile().exists()) {
       filepath = DEFAULT_FILEPATH;
