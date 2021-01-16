@@ -15,16 +15,12 @@ import java.util.stream.Collectors;
 
 public class DataReader {
   private static final Logger LOGGER = LogManager.getLogger();
-//  public static final String DEFAULT_PATH = "res";
-//  public static final String DEFAULT_FILE = "/text.txt";
-//  public static final String DEFAULT_FILEPATH = "res/text.txt"; - Don't work. Why?????????????????
-  public static final String DEFAULT_FILEPATH = "src/main/resources/res/text.txt";
+  public static final String DEFAULT_FILEPATH = "res/text.txt";
 
   public String readFromFile(String filepath) throws DataReaderException {
     List<String> customerList = new ArrayList<>();
     Path path = Paths.get(filepath);
     if (!path.toFile().exists()) {
-//      filepath = DEFAULT_PATH + DEFAULT_FILE;
       filepath = DEFAULT_FILEPATH;
       path = Paths.get(filepath);
     }
